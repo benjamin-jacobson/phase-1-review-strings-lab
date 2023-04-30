@@ -2,12 +2,12 @@
   "stats": {
     "suites": 5,
     "tests": 10,
-    "passes": 9,
+    "passes": 10,
     "pending": 0,
-    "failures": 1,
-    "start": "2023-04-30T17:13:33.374Z",
-    "end": "2023-04-30T17:13:33.705Z",
-    "duration": 331
+    "failures": 0,
+    "start": "2023-04-30T17:15:58.876Z",
+    "end": "2023-04-30T17:15:59.203Z",
+    "duration": 327
   },
   "tests": [
     {
@@ -20,7 +20,7 @@
     {
       "title": "contains \"Welcome to Flatbook, \"",
       "fullTitle": "index.js welcomeMessage contains \"Welcome to Flatbook, \"",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -34,7 +34,7 @@
     {
       "title": "ends with an exclamation point!",
       "fullTitle": "index.js welcomeMessage ends with an exclamation point!",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -76,33 +76,13 @@
     {
       "title": "ends with an exclamation point",
       "fullTitle": "index.js shortGreeting ends with an exclamation point",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
-      "err": {
-        "message": "expected 'G' to equal '!'",
-        "showDiff": true,
-        "actual": "G",
-        "expected": "!",
-        "stack": "AssertionError: expected 'G' to equal '!'\n    at Context.it (test/indexTest.js:55:43)"
-      }
+      "err": {}
     }
   ],
   "pending": [],
-  "failures": [
-    {
-      "title": "ends with an exclamation point",
-      "fullTitle": "index.js shortGreeting ends with an exclamation point",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected 'G' to equal '!'",
-        "showDiff": true,
-        "actual": "G",
-        "expected": "!",
-        "stack": "AssertionError: expected 'G' to equal '!'\n    at Context.it (test/indexTest.js:55:43)"
-      }
-    }
-  ],
+  "failures": [],
   "passes": [
     {
       "title": "is defined",
@@ -114,7 +94,7 @@
     {
       "title": "contains \"Welcome to Flatbook, \"",
       "fullTitle": "index.js welcomeMessage contains \"Welcome to Flatbook, \"",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -128,7 +108,7 @@
     {
       "title": "ends with an exclamation point!",
       "fullTitle": "index.js welcomeMessage ends with an exclamation point!",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -164,6 +144,13 @@
       "title": "contains the first initial of the name stored in the 'currentUser' variable",
       "fullTitle": "index.js shortGreeting contains the first initial of the name stored in the 'currentUser' variable",
       "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "ends with an exclamation point",
+      "fullTitle": "index.js shortGreeting ends with an exclamation point",
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     }
